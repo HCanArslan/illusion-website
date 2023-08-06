@@ -31,12 +31,12 @@ export default function Home() {
   ];
   
   return (
-    <>
+    <div className='bg-black '>
       <Header />
-      <div className=" md:pt-24 lg:pt-12"> {/* This padding top should be equal or more than the height of the Header */}
+      <div className=" md:pt-24 lg:pt-12 "> {/* This padding top should be equal or more than the height of the Header */}
         <HeroSection />
       </div>
-      <EventSection 
+      <EventSection
         upcomingEvents={upcomingEvents}
         pastEvents={pastEvents}
       />
@@ -44,6 +44,6 @@ export default function Home() {
       <AboutUsSection />
       <GallerySection />
       <Footer />
-    </>
+    </div>
   )
 }

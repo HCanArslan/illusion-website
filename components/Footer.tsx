@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className="bg-black text-white px-4 sm:px-6 lg:px-10 py-6 sm:py-10 lg:py-20">
+        <footer className="bg-black bg-opacity-95  text-white px-4 sm:px-6 lg:px-10 py-6 sm:py-10 lg:py-20">
             <div className="flex flex-col sm:flex-row flex-wrap items-start justify-center sm:justify-around">
                 <div className="w-full md:w-1/2 lg:w-1/4 xl:w-1/5 mb-6 lg:pr-10">
                     <img src="/static/logo/illusion-logo.png" alt="Logo" className="w-48 h-24 mb-4 mx-auto sm:mx-0"/>

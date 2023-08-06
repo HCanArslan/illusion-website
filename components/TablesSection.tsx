@@ -2,7 +2,7 @@ import React from 'react';
 
 const TablesSection: React.FC = () => {
   return (
-    <div className="relative bg-white w-full h-screen flex flex-col justify-center items-center md:items-start md:justify-start">
+    <div className="px-4 sm:px-8 md:px-12 lg:px-16 relative bg-white w-full h-screen flex flex-col justify-center items-center md:items-start md:justify-start">
       <div className="absolute inset-0 w-full h-full object-cover bg-cover bg-center shadow-inset-shadow" style={{ backgroundImage: 'url(/static/images/illusion-event-tables.png)' }} />
 
       <div className="z-10 text-center md:text-left text-white grid gap-4 px-6 md:px-8 w-full md:w-1/2 lg:w-1/3 max-w-screen-md">

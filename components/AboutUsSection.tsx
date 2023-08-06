@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutUsSection() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 bg-black px-4 md:px-32">
+    <div className="px-4 sm:px-8 md:px-12 lg:px-16 grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 bg-black px-4 md:px-32">
       <div className="order-1 md:order-none relative pl-5 pb-10 md:w-full mb-10 md:mb-0 justify-center items-center">
         <div className="relative h-[300px] md:h-[900px] overflow-hidden bg-black opacity-50">
           <Image
